@@ -15,7 +15,7 @@ namespace StudentManagement.API.Tests
             // Assert
             Assert.NotNull(students);
             Assert.NotEmpty(students);
-            Assert.True(students.Count >= 2);
+            Assert.True(students.Count >= 3);
         }
     }
 }
